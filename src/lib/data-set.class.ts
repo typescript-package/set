@@ -1,10 +1,10 @@
 // Class.
-import { Data } from '../../../data/src/lib/data.class';
+import { Data } from '@typescript-package/data';
 // Abstract.
 import { CoreSet } from './core-set.abstract';
-import { DataCore } from '../../../data/src/lib/data-core.abstract';
+import { DataCore } from '@typescript-package/data';
 // Interface.
-import { DataConstructorInput } from '../../../data/src/type';
+import { DataConstructorInput } from '@typescript-package/data';
 /**
  * @description The `DataSet` is a concrete class that extends `CoreSet` and encapsulates its data within a `DataCore` store, providing additional data management capabilities.
  * @export
