@@ -70,7 +70,7 @@ import { CoreSet } from '@typescript-package/set';
 The `DataSet` is a concrete class that extends `CoreSet` and encapsulates its data within a `DataCore` store, providing additional data management capabilities.
 
 ```typescript
-import { DataSet } from '@typescript-package/data';
+import { DataSet } from '@typescript-package/set';
 
 // Define a `DataCore` implementation for holding a data in `DataSet`.
 export class CustomSetData<Type> extends Data<Set<Type>> {
