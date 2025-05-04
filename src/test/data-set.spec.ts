@@ -1,4 +1,4 @@
-import { Data, SymbolValue } from '../../../data/src/lib';
+import { Data, SymbolValue } from '@typescript-package/data';
 import { DataSet } from "../lib";
 
 // Define a `DataCore` implementation for holding a data in `DataSet`.
