@@ -1,6 +1,12 @@
 /*
  * Public API Surface of set
  */
+export {
+  // Abstract.
+  CoreSet,
+  SetOnHook,
 
-export * from './lib/set.service';
-export * from './lib/set.component';
+  // Class.
+  DataSet,
+  ImmutableSet,
+} from './lib';
