@@ -1,15 +1,15 @@
 // Class.
-import { Data } from '../../../data/src/lib/data.class';
+import { Data } from '@typescript-package/data';
 import { ImmutableSet } from './immutable-set.class';
 // Abstract.
-import { DataCore } from '../../../data/src/lib/data-core.abstract';
+import { DataCore } from '@typescript-package/data';
 import { SetOnHook } from './set-on-hook.abstract';
 // Interface.
-import { SetTypeConstructor } from '../../../data/src/interface';
+import { SetTypeConstructor } from '@typescript-package/data';
 // Type.
-import { DataConstructorInput } from '../../../data/src/type';
+import { DataConstructorInput } from '@typescript-package/data';
 // Constant: Symbol.
-import { SymbolValue } from '../../../data/src/lib/value.symbol';
+import { SymbolValue } from '@typescript-package/data';
 /**
  * @description The abstract core class for building customizable `Set` and `DataCore` related classes.
  * @export

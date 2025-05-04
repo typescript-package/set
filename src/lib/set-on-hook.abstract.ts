@@ -1,5 +1,5 @@
 // Abstract.
-import { DataCore } from "../../../data/src/lib";
+import { DataCore } from "@typescript-package/data";
 /**
  * @description
  * @export
